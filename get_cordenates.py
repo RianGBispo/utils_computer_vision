@@ -21,7 +21,7 @@ def get_coordinates(event, x, y, flags, param):
 
 
 # Carrega a imagem
-image_path = r"C:\Users\Rian.bispo\PycharmProjects\mecanizacao1\mecanizacao\lubrificacao\static\lubrificacao\images\modelo_lub.png"
+image_path = r"modelo_image.png"
 img = cv2.imread(image_path)
 img_resized = resize_image(img)
 img_copy = img_resized.copy()
